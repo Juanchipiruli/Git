@@ -1,19 +1,41 @@
 body{
     margin: 0;
 }
+/*Letras */
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.big-shoulders-letra2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150px;
+    font-style: normal;
+}
+/*Fin Letras */
 h1{
     background-color: #A08963;
     width: 98%;
-    padding: 10px;
-    text-align: center;
+    padding-left: 100px;
+    padding-top: 300px;
     font-size: 60px;
     margin: 10px;
     text-transform: uppercase;
 }
+.portada h2 {
+    padding-left: 120px;
+}
+.portada p{
+    padding-left: 120px;
+}
+
+  
 .top header {
-    height: 400%;
+    height: 100vh;
     width: 98%;
-    margin: 10px;
+    margin: 20px;
     background-color: #A08963;
 
 }
@@ -40,7 +62,14 @@ html{
     list-style: none;
     padding: 10px;
 }
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .top nav ul li {
+    
     margin: 0px 10px;
     background-color: #DBDBDB;
     display: flex;
