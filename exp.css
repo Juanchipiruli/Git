@@ -29,51 +29,6 @@ body{
 html{
     background-color: #B4BEC9;
 }
-
-.title{
-    font-family: "Boldonse", system-ui;
-    width: 98%;
-    padding-left: 100px;
-    padding-top: 240px;
-    padding-bottom: 0px;
-    font-size: 50px;
-    margin: 0px;
-    color: #002333;
-    text-transform: uppercase;
-}
-.portada .subtitle {
-    font-family: "Anton", sans-serif;
-    padding-left: 100px;
-    margin: 1px;
-    color: #002333;
-}
-.portada .txtportada{
-    font-family: "Anton", sans-serif;
-    padding-left: 100px;
-    margin: 0px;
-    font-size: 14px;
-    color: #002333;
-}
-.portada .foto{
-    width: 801px;
-    display: flex;
-    justify-content: right;
-    padding-top: 62px;
-    
-}
-.portada .foto img {
-    background-color: #DEEFE7;
-    width: 300px;
-    height: 500px;
-    padding-right: 30%;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 8px 0px 0px   8px;
-    border: 3px solid #504B38; 
-}
-
-  
 .top .portada header {
     display: flex;
     height: 100%;
@@ -133,4 +88,56 @@ html{
     transform: scale(1.1);
     border-bottom: 5px solid #383527;
     border-right: 5px solid #383527;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .exp{
+    background-color: #262c38;
+    width: 60%;
+    height: 450px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 30px;
+    gap: 33px;
+    border-radius: 20px;
+}
+.container .exp .hist{
+    box-shadow: 0 0 7px #B4BEC9;
+    border-radius: 14px;
+    background-color: #002333;
+    padding: 20px;
+    transition: transform 1.3s, box-shadow 1s, border 2s;
+}
+.container .exp .hist:hover{
+    transform: scale(1.2);
+    border: 5px solid #262c38;
+    box-shadow: 0 0 10px #002333;
+    border-radius: 14px;
+    background-color: #002333;
+}
+.container .exp .hist .title{
+    display: flex;
+    align-items: center;
+}
+.container .exp .hist .title h2{
+    color: #B4BEC9;
+    padding: 0px 15px;
+    font-size: 23px;
+}
+.container .exp .hist .title h4{
+    color: #B4BEC9;
+    font-size: 14px;
+}
+.container .exp .hist ul{
+    list-style: square;
+    color: #B4BEC9;
+}
+.container .exp .hist ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
