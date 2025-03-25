@@ -126,6 +126,7 @@ html{
     align-items: center;
 }
 .container .exp .hist .title h2{
+    font-family: "Staatliches", sans-serif;
     color: #B4BEC9;
     padding: 0px 15px;
     font-size: 23px;

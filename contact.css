@@ -98,6 +98,25 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+.bottom a{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    background-color: #161920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.7s;
+}
+.bottom a img{
+    width: 25px;
+    height: 25px;
+}
+.bottom a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 9px white;
 }
 .container{
     width: 100%;
