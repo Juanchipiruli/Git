@@ -7,7 +7,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contactos</title>
 </head>
 <body>
@@ -23,12 +23,28 @@
             </ul>
         </nav>
     </section>
-    <section id="Sobremi">
-        <h3>Habilidades</h3>
-        
-        <p>
-            aaa
-        </p>
+    <section class="container">
+        <section class="contacto">
+            <form action="https://api.web3forms.com/submit" method="post">
+                <input type="hidden" name="access_key" value="cd7f4bad-21a8-4854-8ac9-07c4e6eb1020">
+                <section class="small">
+                    <input type="text" placeholder="Nombre">
+                </section>
+                <section class="small">
+                    <input type="text" placeholder="Mail">
+                </section>
+                <section class="big">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                </section>
+                <section id="enviar">
+                    <input type="submit">
+                </section>
+            </form>
+        </section>
+    </section>
+    <section class="bottom">
+        <a href="" class="red"></a>
+        <a href="" class="red"></a>
     </section>
 </body>
 </html>
