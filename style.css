@@ -1,34 +1,4 @@
-body{
-    margin: 0;
-}
-/*Letras */
-.boldonse-regular {
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-.big-shoulders-letra2 {
-    font-family: "Big Shoulders", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 150px;
-    font-style: normal;
-}
-.anton-regular {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-.staatliches-regular {
-    font-family: "Staatliches", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-  
-/*Fin Letras */
-html{
-    background-color: #B4BEC9;
-}
+
 
 .title{
     font-family: "Boldonse", system-ui;
@@ -82,55 +52,4 @@ html{
     background-color: #B4BEC9;
     justify-content: center;
     margin: 0px;
-}
-
-.top nav{
-    display: flex;
-    align-items: center;
-    background-color: #159A9C;
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0px;
-    justify-content: center;
-}
-.top nav ul{
-    margin: 0;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    max-height: 60px;
-    gap: 40px;
-}
-
-
-.top nav ul li {
-    display: flex;
-    justify-content: center;
-}
-.top nav ul li a{
-    background-color: #DBDBDB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: transform 0.3s;
-    text-decoration: none;
-    color: #159A9C;
-    font-family: "Staatliches", sans-serif;
-    font-size: 18px;
-    height: 22px;
-    white-space: nowrap;
-    flex-shrink: 1;
-    max-width: fit-content;
-}
-.top nav ul li a:hover {
-    transform: scale(1.1);
-    border-bottom: 5px solid #383527;
-    border-right: 5px solid #383527;
 }
