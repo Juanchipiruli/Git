@@ -29,6 +29,16 @@ body{
 html{
     background-color: #B4BEC9;
 }
+.top .portada header {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #B4BEC9;
+    justify-content: center;
+    margin: 0px;
+}
+
 .top nav{
     display: flex;
     align-items: center;
@@ -78,4 +88,48 @@ html{
     transform: scale(1.1);
     border-bottom: 5px solid #383527;
     border-right: 5px solid #383527;
+}
+.sobremi {
+    display: flex;
+    background-color: #B4BEC9;
+    width: 100%;
+    height: 650px; 
+    justify-content: center;
+    align-items: center;
+}
+.sobremi .container {
+    padding: 15px;
+    background-color: #002333;
+    border-radius: 20px;
+    border: 10px ridge #159A9C;
+    transition: transform 3s;
+    height: 50%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: repeat(2,1r);
+}
+.sobremi .container:hover{
+    transform: scale(1.2);
+}
+.sobremi .container .title {
+    height: 100px;
+    margin: 0px;
+    padding-left: 10px;
+}
+.sobremi .container .title h3 {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: "Big Shoulders", sans-serif;
+}
+.sobremi .container .text {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+.sobremi .container .text p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 2px;
+    font-family: "Staatliches", sans-serif
 }
