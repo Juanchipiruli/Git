@@ -4,12 +4,19 @@
     font-family: "Boldonse", system-ui;
     width: 98%;
     padding-left: 100px;
-    padding-top: 240px;
+    padding-top: 40%;
     padding-bottom: 0px;
     font-size: 50px;
     margin: 0px;
     color: #002333;
     text-transform: uppercase;
+}
+.portada .infoport{
+    position: relative;
+    left: 0;
+    width: 40%;
+    flex-wrap: wrap;
+    min-width: 15%;
 }
 .portada .subtitle {
     font-family: "Anton", sans-serif;
@@ -25,10 +32,11 @@
     color: #002333;
 }
 .portada .foto{
-    width: 801px;
+    right: 0;
+    width: 60%;
     display: flex;
     justify-content: right;
-    padding-top: 62px;
+    padding: 62px 0px;
     
 }
 .portada .foto img {
@@ -49,7 +57,39 @@
     height: 100%;
     width: 100%;
     margin: 0px;
+    justify-content: center;    
     background-color: #B4BEC9;
-    justify-content: center;
     margin: 0px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1000px) {
+    .top .portada header{
+        flex-direction: column;
+    }
+    .top .portada .infoport {
+        width: 70%;
+        margin-bottom: 15%;
+        display: flex;
+        padding-left: 30%;
+        flex-direction: column;
+    }
+    .top .portada .infoport .title {
+        padding: 0px;
+        padding-top: 90px;
+        width: 75%;
+    }
+    .top .portada .infoport .subtitle{
+        padding: 0px;
+        width: 20%;
+    }
+    .top .portada .infoport .txtportada {
+        padding: 0px;
+        width: 50%;
+    }
+    .top .portada header .foto {
+        right: 0;
+        width: 100%;
+        margin-bottom: 10%  ;
+    }
 }

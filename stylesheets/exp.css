@@ -39,7 +39,7 @@ html{
 .container .exp{
     background-color: #262c38;
     width: 60%;
-    height: 450px;
+    height: 80%;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     padding: 30px;
